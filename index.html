@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8"/>
+        <title>안국건강 AGmall</title>
+        <link rel="stylesheet" type="text/css" href="css/main.css"/>
+        <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700&family=Nanum+Gothic:wght@400;700;800&family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
+        <script src="js/jquery.js"></script>
+        <script src="js/slick.js"></script>
+        <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+        <!--[if lt IE 9]>
+            <script src="js/html5shiv.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+        <div class="dropCont">
+            <div class="dropContInner">
+                안국건강 가입하면 베스트 상품 100원 자세히 보기
+                <button type="button" class="dropContBt">
+                    <img src="img/dropCont_closeBt.png" alt="닫기버튼"/>
+                </button>
+            </div>
+        </div>
+        <header>
+            <div class="mainHead">
+                <div class="mainHeadInner">
+                    <h1 class="logo">
+                        <a href="#" title="AGmall 메인페이지" target="_self">
+                            <img src="img/AGmall_logo.png" alt="AGmall"/>
+                        </a>
+                    </h1>
+                    <div class="search">
+                        <form>
+                            <input type="text" placeholder="루테인"/>
+                            <button type="button" class="searchBt">
+                                <img src="img/searchBt.png" alt="검색버튼"/>
+                            </button>
+                        </form>
+                        <div class="recentSear">
+                            <h2>최근검색어</h2>
+                            <p>최근 검색어가 없습니다.</p>
+                        </div>
+                        <a href="#" title="" target="_self">
+                            <img src="img/searchBt_fit.jpg" alt="맞춤검색"/>
+                        </a>
+                    </div>
+                    <ul class="info">
+                        <li><a href="#" title="" target="_self">로그인</a></li>
+                        <li>
+                            <a href="#" title="" target="_self">회원가입</a>
+                        </li>
+                        <li>
+                            <a href="#" title="" target="_self">장바구니
+                                <p class="shoppingBN">0</p>
+                            </a>
+                        </li>
+                        <li><a href="#" title="" target="_self">고객센터</a></li>
+                        <li><p class="signEvent">+3,000P</p></li>
+                    </ul>
+                </div>
+            </div>
+            <nav>
+                <div class="navInner">
+                    <div class="viewAll">
+                        <button class="button"><img src="img/viewAllBt.jpg" alt="카테고리 전체보기 버튼"/></button>
+                        <div class="viewAllCont">
+                            <h2>카테고리 전체보기</h2>
+                            <ul>
+                                <li>
+                                    <a href="#" target="_self" tile="">눈건강</a>
+                                    <ol></ol>
+                                </li>
+                                <li>
+                                    <a href="#" target="_self" tile="">인생뷰티</a>
+                                    <ol></ol>
+                                </li>
+                                <li>
+                                    <a href="#" target="_self" tile="">안심비타민</a>
+                                    <ol></ol>
+                                </li>
+                                <li>
+                                    <a href="#" target="_self" tile="">코박사</a>
+                                    <ol></ol>
+                                </li>
+                                <li>
+                                    <a href="#" target="_self" tile="">건강기능식품</a>
+                                    <ol>
+                                        <li><a href="#" target="_self" title="">오메가3</a></li>
+                                        <li><a href="#" target="_self" title="">밀크씨슬</a></li>
+                                        <li><a href="#" target="_self" title="">쏘팔메토</a></li>
+                                        <li><a href="#" target="_self" title="">그린프로폴리스</a></li>
+                                        <li><a href="#" target="_self" title="">코엔자임Q10</a></li>
+                                    </ol>
+                                </li>
+                                <li>
+                                    <a href="#" target="_self" tile="">선물세트</a>
+                                    <ol></ol>
+                                </li>
+                                <li>
+                                    <a href="#" target="_self" tile="">이벤트</a>
+                                    <ol>
+                                        <li><a href="#" target="_self" title="">진행중인 이벤트</a></li>
+                                        <li><a href="#" target="_self" title="">당첨자 발표</a></li>
+                                    </ol>
+                                </li>
+                                <li>
+                                    <a href="#" target="_self" tile="">안국건강</a>
+                                    <ol>
+                                        <li><a href="#" target="_self" title="">전체 리뷰보기</a></li>
+                                        <li><a href="#" target="_self" title="">브랜드스토리</a></li>
+                                        <li><a href="#" target="_self" title="">미디어</a></li>
+                                    </ol>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <ul class="mainMenu">
+                        <li>
+                            <a href="#" title="" target="_self">눈건강</a>
+                        </li>
+                        <li>
+                            <a href="#" title="" target="_self">인생뷰티</a>
+                        </li>
+                        <li>
+                            <a href="#" title="" target="_self">안심비타민</a>
+                        </li>
+                        <li>
+                            <a href="#" title="" target="_self">코박사</a>
+                        </li>
+                        <li>
+                            <a href="#" title="" target="_self">건강기능식품</a>
+                            <div class="mainMenuDrop">
+                                <a href="#" title="" target="_self">건강기능식품</a>
+                                <ol>
+                                    <li><a href="#" title="" target="_self">오메가3</a></li>
+                                    <li><a href="#" title="" target="_self">밀크씨슬</a></li>
+                                    <li><a href="#" title="" target="_self">쏘팔메토</a></li>
+                                    <li><a href="#" title="" target="_self">그린프로폴리스</a></li>
+                                    <li><a href="#" title="" target="_self">코엔자임Q10</a></li>
+                                </ol>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#" title="" target="_self">선물세트</a>
+                        </li>
+                        <li>
+                            <a href="#" title="" target="_self">이벤트</a>
+                            <div class="mainMenuDrop">
+                                <a href="#" title="" target="_self">이벤트</a>
+                                <ol>
+                                    <li><a href="#" title="" target="_self">진행중인 이벤트</a></li>
+                                    <li><a href="#" title="" target="_self">당첨자 발표</a></li>
+                                </ol>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <div class="contents">
+            <section class="visual">
+                <div class="visualSl">
+                    <div class="visualSl_1">
+                        <img src="#" alt="안국건강 플러스 친구 | 카카오톡 플러스 친구하고 적립금 3000원 받으세요! | 즉시사용 가능한 적립금과 할인이벤트&건강정보 받아보세요"/>
+                    </div>
+                    <div class="visualSl_2">
+                        <img src="#" alt="안국건강 친구추천 이벤트 | 안국건강을 친구에게 소개해주세요! | 친구와 내가 함께 받는 놀라운 혜택을 만나보세요"/>
+                    </div>
+                    <div class="visualSl_3">
+                        <img src="#" alt="AGmall 가입 이벤트 | 안국건강 가입하면 베스트 상품 100원 | 적립금 3천원도 바로 드려요!"/>
+                    </div>
+                    <div class="visualSl_4">
+                        <img src="#" alt="안국건강 회원 전용 혜택 | AGmall 회원을 위한 혜택 총집합 | 안국건강 가족에게만 드리는 기분 좋은 혜택을 만나보세요"/>
+                    </div>
+                </div>
+                <ul>
+                    <li><a href="#" title="" target="_self">카카오톡 이벤트</a></li>
+                    <li><a href="#" title="" target="_self">친구추천 이벤트</a></li>
+                    <li><a href="#" title="" target="_self">4월 회원가입</a></li>
+                    <li><a href="#" title="" target="_self">4월 회원혜택</a></li>
+                </ul>
+            </section>
+            <section class="Quick_Best">
+                <div class="QBInner">
+                    <article class="Quick">
+                        <ul>
+                            <li>
+                                <a href="#" title="" target="_self">
+                                    <img src="#" alt="AG몰 회원혜택 총집합 | 실버, 골드, VIP"/>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" title="" target="_self">
+                                    <img src="#" alt="내 눈에 딱! 맞는 제품 추천 | 눈 영양제 비교표"/>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" title="" target="_self">
+                                    <img src="#" alt="안국건강 카카오톡 친구하면 적립금 3,000원 지급"/>
+                                </a>
+                            </li>
+                        </ul>
+                    </article>
+                    <article class="Best">
+                        <h2>베스트 상품</h2>
+                        <ul>
+                            <li>
+                                <h3>BEST1</h3>
+                                <a href="#" title="" target="_self" class="B_img">
+                                    <button type="button" class="best_SB_btn">
+                                        <p>장바구니</p>
+                                        <img alt="장바구니" src="#"/>
+                                    </button>
+                                    <button type="button" class="best_SB_btn">
+                                        <p>찜하기</p>
+                                        <img alt="찜하기" src="#"/>
+                                    </button>
+                                    <img src="#" alt=""/>
+                                </a>
+                                <a class="B_tit" href="#" target="_self" title="">아이세이프 루테인 3통Set 1박스</a>
+                                <div>
+                                    <del datetime="2020-01-01T00:00">75,000원</del>
+                                    <ins datetime="2020-01-01T00:00">44,900원</ins>
+                                    <strong>BEST</strong>
+                                </div>
+                            </li>
+                            <li>
+                                <h3>BEST2</h3>
+                                <a href="#" title="" target="_self" class="B_img">
+                                    <button type="button" class="best_SB_btn">
+                                        <p>장바구니</p>
+                                        <img alt="장바구니" src="#"/>
+                                    </button>
+                                    <button type="button" class="best_SB_btn">
+                                        <p>찜하기</p>
+                                        <img alt="찜하기" src="#"/>
+                                    </button>
+                                    <img src="#" alt=""/>
+                                </a>
+                                <a class="B_tit" href="#" target="_self" title="">안국 루테인지아잔틴 플러스 90캡슐</a>
+                                <div>
+                                    <del datetime="2020-01-01T00:00">90,000원</del>
+                                    <ins datetime="2020-01-01T00:00">45,900원</ins>
+                                    <strong>BEST</strong>
+                                </div>
+                            </li>
+                            <li>
+                                <h3>BEST3</h3>
+                                <a href="#" title="" target="_self" class="B_img">
+                                    <button type="button" class="best_SB_btn">
+                                        <p>장바구니</p>
+                                        <img alt="장바구니" src="#"/>
+                                    </button>
+                                    <button type="button" class="best_SB_btn">
+                                        <p>찜하기</p>
+                                        <img alt="찜하기" src="#"/>
+                                    </button>
+                                    <img src="#" alt=""/>
+                                </a>
+                                <a class="B_tit" href="#" target="_self" title="">NEW 눈에 좋은 루테인 플러스 180캡슐(PTP)</a>
+                                <div>
+                                    <del datetime="2020-01-01T00:00">90,000원</del>
+                                    <ins datetime="2020-01-01T00:00">46,900원</ins>
+                                </div>
+                            </li>
+                            <li>
+                                <h3>BEST4</h3>
+                                <a href="#" title="" target="_self" class="B_img">
+                                    <button type="button" class="best_SB_btn">
+                                        <p>장바구니</p>
+                                        <img alt="장바구니" src="#"/>
+                                    </button>
+                                    <button type="button" class="best_SB_btn">
+                                        <p>찜하기</p>
+                                        <img alt="찜하기" src="#"/>
+                                    </button>
+                                    <img src="#" alt=""/>
+                                </a>
+                                <a class="B_tit" href="#" target="_self" title="">안국 알티지 RTG 오메가3 2통</a>
+                                <div>
+                                    <del datetime="2020-01-01T00:00">60,000원</del>
+                                    <ins datetime="2020-01-01T00:00">39,000원</ins>
+                                </div>
+                            </li>
+                            <li>
+                                <h3>BEST5</h3>
+                                <a href="#" title="" target="_self" class="B_img">
+                                    <button type="button" class="best_SB_btn">
+                                        <p>장바구니</p>
+                                        <img alt="장바구니" src="#"/>
+                                    </button>
+                                    <button type="button" class="best_SB_btn">
+                                        <p>찜하기</p>
+                                        <img alt="찜하기" src="#"/>
+                                    </button>
+                                    <img src="#" alt=""/>
+                                </a>
+                                <a class="B_tit" href="#" target="_self" title="">안국 루테인지아잔틴 포뮬라 4박스</a>
+                                <div>
+                                    <del datetime="2020-01-01T00:00">100,000원</del>
+                                    <ins datetime="2020-01-01T00:00">69,900원</ins>
+                                </div>
+                            </li>
+                        </ul>
+                    </article>
+                </div>
+            </section>
+            <section class="MD">
+                <div class="MDInner">
+                    <article class="MD4">
+                        <div>
+                            <img src="#" alt=""/>
+                            <div class="MD4_txt">
+                                <h3>안국 루테인지아잔틴 포뮬라 10박스</h3>
+                                <span>NS 홈쇼핑 첫 런칭 후 매진 구성!<br/>AGmall 단독으로 소개합니다.</span>
+                            </div>
+                        </div>
+                        <div>
+                            <img src="#" alt=""/>
+                            <div class="MD4_txt">
+                                <h3>코박사에스</h3>
+                                <span>리뉴얼 업그레이드 되어 돌아왔어요.<br/>코건강, 정상적인 면역기능, 뼈건강을 한번에 챙겨요.</span>
+                            </div>
+                        </div>
+                        <div>
+                            <img src="#" alt=""/>
+                            <div class="MD4_txt">
+                                <h3>인생뷰티 시네트롤 브이세븐</h3>
+                                <span>국내에서 최초로 선보이는 프랑스산 다이어트 최신소재<br/>'시네트롤'로 시작하세요.</span>
+                            </div>
+                        </div>
+                        <div>
+                            <img src="#" alt=""/>
+                            <div class="MD4_txt">
+                                <h3>인생뷰티 저분자 콜라겐 유산균업</h3>
+                                <span>푸석푸석 생기없는 내 모습이 걱정될 때<br/>화장실을 다녀와도 개운하지 않을 때 필요한 순간입니다.</span>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="MDList">
+                        <a href="#" title="" target="_self">
+                            <img src="#" alt=""/>
+                            <h3>아이세이프 루테인</h3>
+                        </a>
+                        <a href="#" title="" target="_self">
+                            <img src="#" alt=""/>
+                            <h3>눈에좋은 루테인 플러스</h3>
+                        </a>
+                        <a href="#" title="" target="_self">
+                            <img src="#" alt=""/>
+                            <h3>루테인 미니100</h3>
+                        </a>
+                        <a href="#" title="" target="_self">
+                            <img src="#" alt=""/>
+                            <h3>루테인 지아잔틴</h3>
+                        </a>
+                        <a href="#" title="" target="_self">
+                            <img src="#" alt=""/>
+                            <h3>아이포커스</h3>
+                        </a>
+                        <a href="#" title="" target="_self">
+                            <img src="#" alt=""/>
+                            <h3>오메가 루테인 플러스</h3>
+                        </a>
+                        <a href="#" title="" target="_self">
+                            <img src="#" alt=""/>
+                            <h3>알티지오메가3</h3>
+                        </a>
+                        <a href="#" title="" target="_self">
+                            <img src="#" alt=""/>
+                            <h3>밀크씨슬</h3>
+                        </a>
+                        <a href="#" title="" target="_self">
+                            <img src="#" alt=""/>
+                            <h3>안심 비타민</h3>
+                        </a>
+                        <a href="#" title="" target="_self">
+                            <img src="#" alt=""/>
+                            <h3>건강 선물세트</h3>
+                        </a>
+                        <a href="#" title="" target="_self">
+                            <img src="#" alt=""/>
+                            <h3>인생뷰티</h3>
+                        </a>
+                        <a href="#" title="" target="_self">
+                            <img src="#" alt=""/>
+                            <h3>저분자 콜라겐</h3>
+                        </a>
+                        <a href="#" title="" target="_self">
+                            <img src="#" alt=""/>
+                            <h3>코박사</h3>
+                        </a>
+                        <a href="#" title="" target="_self">
+                            <img src="#" alt=""/>
+                            <h3>코박사 키즈</h3>
+                        </a>
+                        <a href="#" title="" target="_self">
+                            <img src="#" alt=""/>
+                            <h3>편강 청강원</h3>
+                        </a>
+                    </article>
+                </div>
+            </section>
+            <article class="banner">
+                <div class="bannerInner">
+                    <h3>눈건강엔 안국건강!</h3>
+                </div>
+            </article>
+            <section class="story_bestRe">
+                <div class="story_bestReInner">
+                    <article class="story">
+                        <a href="#" title="" target="_self">
+                            <img src="#" alt="3.MARCH | AG.LOOK | 이야기 보러가기 / 3월 맞이 배경화면 받기 / 안국만의 원료조합 '루테인지아잔틴 포뮬라'"/>
+                        </a>
+                    </article>
+                    <article class="bestRe">
+                        <h2>베스트 리뷰</h2>
+                        <ul>
+                            <li>
+                                <a href="#" title="" target="_self">
+                                    <img src="#" alt="시네트롤 브이세븐"/>
+                                    <div class="reviewTit">
+                                        <h3>다른다이어트식품 먹었을 땐 속이 쓰렸는데</h3>
+                                        <p>정****</p>
+                                        <span>2020. 04. 03</span>
+                                    </div>
+                                    <div class="eval">
+                                        <img src="#" alt=""/>
+                                        <h3>[안국건강] 인생뷰티 시네트롤 브이세븐</h3>
+                                        <p>리뷰<span>13</span></p>
+                                        <p>리뷰<span>4.5</span></p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" title="" target="_self">
+                                    <img src="#" alt="시네트롤 브이세븐"/>
+                                    <div class="reviewTit">
+                                        <h3>꼭 챙겨먹는 영양제</h3>
+                                        <p>조****</p>
+                                        <span>2020. 04. 02</span>
+                                    </div>
+                                    <div class="eval">
+                                        <img src="#" alt=""/>
+                                        <h3>안국 루테인지아잔틴 포뮬라</h3>
+                                        <p>리뷰<span>30</span></p>
+                                        <p>리뷰<span>4.9</span></p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" title="" target="_self">
+                                    <img src="#" alt="시네트롤 브이세븐"/>
+                                    <div class="reviewTit">
+                                        <h3>저분자콜라겐 딥으로 콜라겐 챙기는 인생뷰티</h3>
+                                        <p>정****</p>
+                                        <span>2019. 10. 13</span>
+                                    </div>
+                                    <div class="eval">
+                                        <img src="#" alt=""/>
+                                        <h3>[안국건강] 인생뷰티 저분자 콜라겐 츄</h3>
+                                        <p>리뷰<span>387</span></p>
+                                        <p>리뷰<span>4.9</span></p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" title="" target="_self">
+                                    <img src="#" alt="시네트롤 브이세븐"/>
+                                    <div class="reviewTit">
+                                        <h3>인생뷰티 그린프로폴리스가 씹어먹을 수록</h3>
+                                        <p>정****</p>
+                                        <span>2019. 09. 06</span>
+                                    </div>
+                                    <div class="eval">
+                                        <img src="#" alt=""/>
+                                        <h3>[안국건강] 인생뷰티 그린프로폴리스</h3>
+                                        <p>리뷰<span>245</span></p>
+                                        <p>리뷰<span>4.8</span></p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" title="" target="_self">
+                                    <img src="#" alt="시네트롤 브이세븐"/>
+                                    <div class="reviewTit">
+                                        <h3>다른 오메가3보다 비린내도 덜하고 아주 잘</h3>
+                                        <p>채****</p>
+                                        <span>2019. 03. 21</span>
+                                    </div>
+                                    <div class="eval">
+                                        <img src="#" alt=""/>
+                                        <h3>안국 알티지 RTG 오메가3 2통</h3>
+                                        <p>리뷰<span>877</span></p>
+                                        <p>리뷰<span>4.9</span></p>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </article>
+                </div>
+            </section>
+        </div>
+        <footer>
+            <div class="guide">
+                <ul>
+                    <li><a href="#" title="" target="_self">회사소개</a></li>
+                    <li><a href="#" title="" target="_self">이용약관</a></li>
+                    <li><a href="#" title="" target="_self">개인정보처리방침</a></li>
+                    <li><a href="#" title="" target="_self">이용안내</a></li>
+                    <li><a href="#" title="" target="_self">고객센터</a></li>
+                    <li><a href="#" title="" target="_self">대량구매/광고/제휴 문의</a></li>
+                </ul>
+            </div>
+            <div class="footer">
+                <ul>
+                    <li>
+                        <h1 class="footerLogo">
+                            <img src="#" alt="안국건강 로고"/>
+                        </h1>
+                        <address>
+                            <span>안국건강</span>
+                            <span>대표 | 어광, 유명한</span>
+                            <span>사업자등록번호 | 124-86-00538</span>
+                            <br/>
+                            <span>통신판매업 신고 | 2004-00122</span>
+                            <a href="#" title="" target="_blank">사업자번호조회</a>
+                            <br/>
+                            <span>서울본사 | 서울특별시 강남구 영동대로 511 (트레이드타워) 11층(1101호)</span>
+                            <span>화성물류창고 | 18608 경기도 화성시 향남읍 하길리 1408-17</span>
+                            <span>개인정보보호책임자 | 이상조</span>
+                            <p class="copyright">Copyright © <strong>안국건강</strong> All rights reserved.</p>
+                        </address>
+                    </li>
+                    <li>
+                        <h3>고객센터</h3>
+                        <p>1899 5707</p>
+                        <div>
+                            <span>월~금 09:00~18:00</span>
+                            <span>점심시간 12:30~13:30</span>
+                            <span>공휴일/주말 휴무</span>
+                        </div>
+                    </li>
+                    <li>
+                        <ol class="GoPage">
+                            <li>
+                                <a href="#" title="" target="_self">
+                                    <span>MEDIA</span>
+                                    <img src="#" alt="안국건강 미디어 이미지">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" title="" target="_self">
+                                    <span>BRAND</span>
+                                    <img src="#" alt="안국건강 브랜드 이미지">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" title="" target="_self">
+                                    <span>FAQ</span>
+                                    <img src="#" alt="자주묻는 질문">
+                                </a>
+                            </li>
+                        </ol>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                //상단 drop
+                $('.dropContBt').on('click',function(){
+                    $(this).parent().parent().slideUp(200);
+                })
+
+                //search
+                $('.search input').focus(function(){
+                    $('.recentSear').show();
+                })
+                $('.search input').blur(function(){
+                    $('.recentSear').hide();
+                })
+
+                //nav
+                $('.mainMenu').find('>li>a').on('mouseover',function(){
+                    $(this).addClass('onMain');
+                })
+            })
+        </script>
+    </body>
+</html>
