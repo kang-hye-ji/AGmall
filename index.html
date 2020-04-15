@@ -7,6 +7,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700&family=Nanum+Gothic:wght@400;700;800&family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
         <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
         <script src="js/slick.js"></script>
+        <script src="js/jquery.easing.1.3.js"></script>
         <!--[if lt IE 9]>
             <script src="js/html5shiv.js"></script>
         <![endif]-->
@@ -207,12 +208,12 @@
                                 <h3>BEST1</h3>
                                 <a href="#" title="" target="_self" class="B_img">
                                     <button type="button" class="best_SB_btn1">
-                                        <p>장바구니</p>
-                                        <img alt="장바구니" src="img/best_ico1.png"/>
+                                        <div><p>장바구니</p></div>
+                                        <img class="1" alt="장바구니" src="img/best_ico1.png"/>
                                     </button>
                                     <button type="button" class="best_SB_btn2">
-                                        <p>찜하기</p>
-                                        <img alt="찜하기" src="img/best_ico2.png"/>
+                                        <div><p>찜하기</p></div>
+                                        <img class="1" alt="찜하기" src="img/best_ico2.png"/>
                                     </button>
                                     <img src="img/best1.jpg" alt=""/>
                                 </a>
@@ -227,11 +228,11 @@
                                 <h3>BEST2</h3>
                                 <a href="#" title="" target="_self" class="B_img">
                                     <button type="button" class="best_SB_btn1">
-                                        <p>장바구니</p>
+                                        <div><p>장바구니</p></div>
                                         <img alt="장바구니" src="img/best_ico1.png"/>
                                     </button>
                                     <button type="button" class="best_SB_btn2">
-                                        <p>찜하기</p>
+                                        <div><p>찜하기</p></div>
                                         <img alt="찜하기" src="img/best_ico2.png"/>
                                     </button>
                                     <img src="img/best2.jpg" alt=""/>
@@ -247,11 +248,11 @@
                                 <h3>BEST3</h3>
                                 <a href="#" title="" target="_self" class="B_img">
                                     <button type="button" class="best_SB_btn1">
-                                        <p>장바구니</p>
+                                        <div><p>장바구니</p></div>
                                         <img alt="장바구니" src="img/best_ico1.png"/>
                                     </button>
                                     <button type="button" class="best_SB_btn2">
-                                        <p>찜하기</p>
+                                        <div><p>찜하기</p></div>
                                         <img alt="찜하기" src="img/best_ico2.png"/>
                                     </button>
                                     <img src="img/best3.jpg" alt=""/>
@@ -266,11 +267,11 @@
                                 <h3>BEST4</h3>
                                 <a href="#" title="" target="_self" class="B_img">
                                     <button type="button" class="best_SB_btn1">
-                                        <p>장바구니</p>
+                                        <div><p>장바구니</p></div>
                                         <img alt="장바구니" src="img/best_ico1.png"/>
                                     </button>
                                     <button type="button" class="best_SB_btn2">
-                                        <p>찜하기</p>
+                                        <div><p>찜하기</p></div>
                                         <img alt="찜하기" src="img/best_ico2.png"/>
                                     </button>
                                     <img src="img/best4.jpg" alt=""/>
@@ -285,11 +286,11 @@
                                 <h3>BEST5</h3>
                                 <a href="#" title="" target="_self" class="B_img">
                                     <button type="button" class="best_SB_btn1">
-                                        <p>장바구니</p>
+                                        <div><p>장바구니</p></div>
                                         <img alt="장바구니" src="img/best_ico1.png"/>
                                     </button>
                                     <button type="button" class="best_SB_btn2">
-                                        <p>찜하기</p>
+                                        <div><p>찜하기</p></div>
                                         <img alt="찜하기" src="img/best_ico2.png"/>
                                     </button>
                                     <img src="img/best5.jpg" alt=""/>
@@ -307,29 +308,30 @@
             <section class="MD">
                 <div class="MDInner">
                     <article class="MD4">
-                        <div>
-                            <img src="#" alt=""/>
+                        <div class="MD4_tit"><h2>MD 추천상품</h2></div>
+                        <div class="MD4-1">
+                            <img src="img/md4-1.png" alt="안국 루테인지아잔틴 포뮬라 10박스"/>
                             <div class="MD4_txt">
                                 <h3>안국 루테인지아잔틴 포뮬라 10박스</h3>
                                 <span>NS 홈쇼핑 첫 런칭 후 매진 구성!<br/>AGmall 단독으로 소개합니다.</span>
                             </div>
                         </div>
-                        <div>
-                            <img src="#" alt=""/>
+                        <div class="MD4-2">
+                            <img src="img/md4-2.png" alt="코박사에스"/>
                             <div class="MD4_txt">
                                 <h3>코박사에스</h3>
                                 <span>리뉴얼 업그레이드 되어 돌아왔어요.<br/>코건강, 정상적인 면역기능, 뼈건강을 한번에 챙겨요.</span>
                             </div>
                         </div>
-                        <div>
-                            <img src="#" alt=""/>
+                        <div class="MD4-3">
+                            <img src="img/md4-3.png" alt="인생뷰티 시네트롤 브이세븐"/>
                             <div class="MD4_txt">
                                 <h3>인생뷰티 시네트롤 브이세븐</h3>
                                 <span>국내에서 최초로 선보이는 프랑스산 다이어트 최신소재<br/>'시네트롤'로 시작하세요.</span>
                             </div>
                         </div>
-                        <div>
-                            <img src="#" alt=""/>
+                        <div class="MD4-4">
+                            <img src="img/md4-4.png" alt="인생뷰티 저분자 콜라겐 유산균업"/>
                             <div class="MD4_txt">
                                 <h3>인생뷰티 저분자 콜라겐 유산균업</h3>
                                 <span>푸석푸석 생기없는 내 모습이 걱정될 때<br/>화장실을 다녀와도 개운하지 않을 때 필요한 순간입니다.</span>
@@ -338,64 +340,49 @@
                     </article>
                     <article class="MDList">
                         <a href="#" title="" target="_self">
-                            <img src="#" alt=""/>
-                            <h3>아이세이프 루테인</h3>
+                            <img src="img/MDlist1.png" alt="아이세이프 루테인"/>
                         </a>
                         <a href="#" title="" target="_self">
-                            <img src="#" alt=""/>
-                            <h3>눈에좋은 루테인 플러스</h3>
+                            <img src="img/MDlist2.png" alt="눈에좋은 루테인 플러스"/>
                         </a>
                         <a href="#" title="" target="_self">
-                            <img src="#" alt=""/>
-                            <h3>루테인 미니100</h3>
+                            <img src="img/MDlist3.png" alt="루테인 미니100"/>
                         </a>
                         <a href="#" title="" target="_self">
-                            <img src="#" alt=""/>
-                            <h3>루테인 지아잔틴</h3>
+                            <img src="img/MDlist4.png" alt="루테인 지아잔틴"/>
                         </a>
                         <a href="#" title="" target="_self">
-                            <img src="#" alt=""/>
-                            <h3>아이포커스</h3>
+                            <img src="img/MDlist5.png" alt="아이포커스"/>
                         </a>
                         <a href="#" title="" target="_self">
-                            <img src="#" alt=""/>
-                            <h3>오메가 루테인 플러스</h3>
+                            <img src="img/MDlist6.png" alt="오메가 루테인 플러스"/>
                         </a>
                         <a href="#" title="" target="_self">
-                            <img src="#" alt=""/>
-                            <h3>알티지오메가3</h3>
+                            <img src="img/MDlist7.png" alt="알티지오메가3"/>
                         </a>
                         <a href="#" title="" target="_self">
-                            <img src="#" alt=""/>
-                            <h3>밀크씨슬</h3>
+                            <img src="img/MDlist8.png" alt="밀크씨슬"/>
                         </a>
                         <a href="#" title="" target="_self">
-                            <img src="#" alt=""/>
-                            <h3>안심 비타민</h3>
+                            <img src="img/MDlist9.png" alt="안심 비타민"/>
                         </a>
                         <a href="#" title="" target="_self">
-                            <img src="#" alt=""/>
-                            <h3>건강 선물세트</h3>
+                            <img src="img/MDlist10.png" alt="건강 선물세트"/>
                         </a>
                         <a href="#" title="" target="_self">
-                            <img src="#" alt=""/>
-                            <h3>인생뷰티</h3>
+                            <img src="img/MDlist11.png" alt="인생뷰티"/>
                         </a>
                         <a href="#" title="" target="_self">
-                            <img src="#" alt=""/>
-                            <h3>저분자 콜라겐</h3>
+                            <img src="img/MDlist12.png" alt="저분자 콜라겐"/>
                         </a>
                         <a href="#" title="" target="_self">
-                            <img src="#" alt=""/>
-                            <h3>코박사</h3>
+                            <img src="img/MDlist13.png" alt="코박사"/>
                         </a>
                         <a href="#" title="" target="_self">
-                            <img src="#" alt=""/>
-                            <h3>코박사 키즈</h3>
+                            <img src="img/MDlist14.png" alt="코박사 키즈"/>
                         </a>
                         <a href="#" title="" target="_self">
-                            <img src="#" alt=""/>
-                            <h3>편강 청강원</h3>
+                            <img src="img/MDlist15.png" alt="편강 청강원"/>
                         </a>
                     </article>
                 </div>
@@ -409,22 +396,22 @@
                 <div class="story_bestReInner">
                     <article class="story">
                         <a href="#" title="" target="_self">
-                            <img src="#" alt="3.MARCH | AG.LOOK | 이야기 보러가기 / 3월 맞이 배경화면 받기 / 안국만의 원료조합 '루테인지아잔틴 포뮬라'"/>
+                            <img src="img/story.jpg" alt="3.MARCH | AG.LOOK | 이야기 보러가기 / 3월 맞이 배경화면 받기 / 안국만의 원료조합 '루테인지아잔틴 포뮬라'"/>
                         </a>
                     </article>
                     <article class="bestRe">
-                        <h2>베스트 리뷰</h2>
+                        <div><h2>베스트 리뷰</h2></div>
                         <ul>
                             <li>
                                 <a href="#" title="" target="_self">
-                                    <img src="#" alt="시네트롤 브이세븐"/>
+                                    <img src="img/bestRe1.jfif" alt="시네트롤 브이세븐"/>
                                     <div class="reviewTit">
                                         <h3>다른다이어트식품 먹었을 땐 속이 쓰렸는데</h3>
                                         <p>정****</p>
                                         <span>2020. 04. 03</span>
                                     </div>
                                     <div class="eval">
-                                        <img src="#" alt=""/>
+                                        <img src="img/bestRe1_tit.jfif" alt=""/>
                                         <h3>[안국건강] 인생뷰티 시네트롤 브이세븐</h3>
                                         <p>리뷰<span>13</span></p>
                                         <p>리뷰<span>4.5</span></p>
@@ -433,14 +420,14 @@
                             </li>
                             <li>
                                 <a href="#" title="" target="_self">
-                                    <img src="#" alt="시네트롤 브이세븐"/>
+                                    <img src="img/bestRe2.jfif" alt="시네트롤 브이세븐"/>
                                     <div class="reviewTit">
                                         <h3>꼭 챙겨먹는 영양제</h3>
                                         <p>조****</p>
                                         <span>2020. 04. 02</span>
                                     </div>
                                     <div class="eval">
-                                        <img src="#" alt=""/>
+                                        <img src="img/bestRe2_tit.jfif" alt=""/>
                                         <h3>안국 루테인지아잔틴 포뮬라</h3>
                                         <p>리뷰<span>30</span></p>
                                         <p>리뷰<span>4.9</span></p>
@@ -449,14 +436,14 @@
                             </li>
                             <li>
                                 <a href="#" title="" target="_self">
-                                    <img src="#" alt="시네트롤 브이세븐"/>
+                                    <img src="img/bestRe3.jfif" alt="시네트롤 브이세븐"/>
                                     <div class="reviewTit">
                                         <h3>저분자콜라겐 딥으로 콜라겐 챙기는 인생뷰티</h3>
                                         <p>정****</p>
                                         <span>2019. 10. 13</span>
                                     </div>
                                     <div class="eval">
-                                        <img src="#" alt=""/>
+                                        <img src="img/bestRe3_tit.jfif" alt=""/>
                                         <h3>[안국건강] 인생뷰티 저분자 콜라겐 츄</h3>
                                         <p>리뷰<span>387</span></p>
                                         <p>리뷰<span>4.9</span></p>
@@ -465,14 +452,14 @@
                             </li>
                             <li>
                                 <a href="#" title="" target="_self">
-                                    <img src="#" alt="시네트롤 브이세븐"/>
+                                    <img src="img/bestRe4.jfif" alt="시네트롤 브이세븐"/>
                                     <div class="reviewTit">
                                         <h3>인생뷰티 그린프로폴리스가 씹어먹을 수록</h3>
                                         <p>정****</p>
                                         <span>2019. 09. 06</span>
                                     </div>
                                     <div class="eval">
-                                        <img src="#" alt=""/>
+                                        <img src="img/bestRe4_tit.jfif" alt=""/>
                                         <h3>[안국건강] 인생뷰티 그린프로폴리스</h3>
                                         <p>리뷰<span>245</span></p>
                                         <p>리뷰<span>4.8</span></p>
@@ -481,14 +468,14 @@
                             </li>
                             <li>
                                 <a href="#" title="" target="_self">
-                                    <img src="#" alt="시네트롤 브이세븐"/>
+                                    <img src="img/bestRe5.jfif" alt="시네트롤 브이세븐"/>
                                     <div class="reviewTit">
                                         <h3>다른 오메가3보다 비린내도 덜하고 아주 잘</h3>
                                         <p>채****</p>
                                         <span>2019. 03. 21</span>
                                     </div>
                                     <div class="eval">
-                                        <img src="#" alt=""/>
+                                        <img src="img/bestRe5_tit.jfif" alt=""/>
                                         <h3>안국 알티지 RTG 오메가3 2통</h3>
                                         <p>리뷰<span>877</span></p>
                                         <p>리뷰<span>4.9</span></p>
@@ -585,7 +572,7 @@
                     $('.recentSear').hide();
                 })
 
-                //nav
+                //mainMenu
                 $('.mainMenu').find('>li>a').on('mouseover',function(){
                     $(this).parent().siblings().find('>a').removeClass('onMain');
                     $(this).parent().siblings().find('.mainMenuDrop').hide();
@@ -595,6 +582,7 @@
                     $(this).find('>li>a').removeClass('onMain');
                     $(this).find('.mainMenuDrop').hide();
                 })
+                //viewAll
                 $('.viewAllCont>ul>li').on('mouseover',function(){
                     $(this).siblings().removeClass('onVA');
                     $(this).addClass('onVA');
@@ -629,6 +617,36 @@
                     var currentSlIndex=$('.visualSl .slick-current').index();
                     $('.visual>ul>li').removeClass('onSl');
                     $('.visual>ul>li').eq((currentSlIndex+1)%4).addClass('onSl');
+                })
+
+                //best hover-button
+                $('.Best .B_img button>div').hide();
+                $('.Best>ul>li').on('mouseover',function(){
+                    $(this).siblings().find('button').fadeOut('fast');
+                    $(this).find('.B_img>img').siblings().fadeIn('fast');
+                })
+                $('.Best>ul>li').on('mouseleave',function(){
+                    $(this).find('.B_img>img').siblings().fadeOut('fast');
+                })
+                $('.Best>ul>li button').on('mouseover',function(){
+                    $(this).siblings().find('>div').fadeOut('fast');
+                    $(this).find('>div').fadeIn('fast');
+                })
+                $('.Best>ul>li button').on('mouseleave',function(){
+                    $(this).find('>div').fadeOut('fast');
+                })
+                //best hover-img
+                $('.Best .B_img').on('mouseover',function(){
+                    $(this).find('>img').animate({
+                        width:'253px',
+                        height:'254.1px'
+                    },200,'easeOutSine');
+                })
+                $('.Best .B_img').on('mouseleave',function(){
+                    $(this).find('>img').animate({
+                        width:'230px',
+                        height:'231px'
+                    },200,'jswing');
                 })
             })
         </script>
