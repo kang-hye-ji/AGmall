@@ -5,7 +5,7 @@ font-family: 'Heebo', sans-serif;   //footer 숫자
 */
 
 body{
-    min-width:1200px; margin:0 auto; border:1px solid #000;
+    min-width:1200px; margin:0 auto;
 }
 
 .dropCont{
