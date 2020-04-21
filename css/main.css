@@ -12,6 +12,41 @@ font-family: 'Heebo', sans-serif;   //footer 숫자
 .slick-list{overflow:hidden;}
 .slick-slide{float:left;}
 
+.quickSide{
+    max-width:1200px; position:relative; margin:0 auto; 
+}
+.quickSideInner{
+    position:absolute; right:-140px; top:590px;
+}
+.quickWrap{
+    z-index:150; width:115px;
+}
+.quickSideInner.onQ .quickWrap{
+    position:fixed; top:50px; margin-left:-118px;
+}
+.quickWrap>a{
+    display:block; width:115px; padding:8px 0;
+    border-top:2px solid #000; border-bottom:2px solid #000;
+}
+.quickWrap>a>img{
+    margin:0 auto; display:block;
+}
+.quickWrap>a>img:nth-child(1){
+    margin-bottom:3px;
+}
+.quickWrap .sns{
+    *zoom:1; margin:10px auto; width:103px;
+}
+.quickWrap .sns:after{
+    clear:both; display:table; content:'';
+}
+.quickWrap .sns>li{
+    float:left; margin-right:5px;
+}
+.quickWrap .sns>li:last-child{
+    margin:0;
+}
+
 .visual{
     width:100%; height:546px; position:relative;
 }

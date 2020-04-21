@@ -158,6 +158,22 @@
             </nav>
         </header>
         <div class="contents">
+            <div class="quickSide">
+                <div class="quickSideInner">
+                    <div class="quickWrap">
+                        <a href="#" target="_blank" title="카카오톡 친구이벤트 새창열기">
+                            <img src="img/quickSide1.jpg" alt="카톡친구 맺으면 3,000원 지급"/>
+                            <img src="img/quickSide2.jpg" alt="2020년 4월 할인쿠폰"/>
+                        </a>
+                        <ul class="sns">
+                            <li><a href="#" title="카카오톡 새창열기" target="_blank"><img alt="카카오톡" src="img/sns_ico3.png"/></a></li>
+                            <li><a href="#" title="네이버포스트 새창열기" target="_blank"><img alt="네이버포스트" src="img/sns_ico1.png"/></a></li>
+                            <li><a href="#" title="인스타그램 새창열기" target="_blank"><img alt="인스타그램" src="img/sns_ico4.png"/></a></li>
+                            <li><a href="#" title="페이스북 새창열기" target="_blank"><img alt="페이스북" src="img/sns_ico2.png"/></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
             <section class="visual">
                 <div class="visualSl">
                     <a href="#" target="_self" class="visualSl_1">
@@ -598,6 +614,22 @@
                 })
                 $('.viewAllCont').on('mouseleave',function(){
                     $(this).hide();
+                })
+
+                //quickSide (right bar)
+                $(window).scroll(function(){
+                    $('.quickSideInner').each(function(){
+                        
+                        var window_top=$(window).scrollTop();
+                        
+                        var quickSide_top=$('.quickSideInner').offset().top;
+                        console.log(quickSide_top)
+                        if(quickSide_top<=window_top){
+                            $(this).addClass('onQ');
+                        }else{
+                            $(this).removeClass('onQ');
+                        }
+                    })
                 })
 
                 //visual slick
