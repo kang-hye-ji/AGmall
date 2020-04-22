@@ -589,6 +589,14 @@
                     $(this).parent().parent().slideUp(200);
                 })
 
+                $(window).scroll(function(){
+                    if($(window).scrollTop()>0){
+                        $('header').addClass('onH');
+                    }else{
+                        $('header').removeClass('onH');
+                    }
+                })
+
                 //search
                 $('.search input').focus(function(){
                     $('.recentSear').show();

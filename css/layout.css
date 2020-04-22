@@ -5,7 +5,7 @@ font-family: 'Heebo', sans-serif;   //footer 숫자
 */
 
 body{
-    min-width:1200px; margin:0 auto;
+    min-width:1200px; margin:0 auto; overflow:auto;
 }
 
 .dropCont{
@@ -13,14 +13,22 @@ body{
     background:rgba(0,0,0,0.1) url(../img/dropCont.jpg) center no-repeat;
 }
 .dropContInner{
-    height:78px; position:relative; text-indent:-999999px; overflow:hidden; max-width:1200px; margin:0 auto;
+    height:78px; position:relative; text-indent:-999999px; overflow:hidden; width:1200px; margin:0 auto;
 }
 .dropCont button{
     display:block; position:absolute; top:22.5px; right:50px;
 }
+.dropCont button>img{
+    display:block; width:33px; height:33px;
+}
 
 header{
     width:100%; position:relative; z-index:100;
+    background:#fff;
+}
+header.onH{
+    position:fixed; top:0;
+    box-shadow:1px 1px 15px rgba(0,0,0,0.3); -webkit-box-shadow:1px 1px 15px rgba(0,0,0,0.3);
 }
 .mainHead{
     border-bottom:1px solid #dddddd;
@@ -227,4 +235,21 @@ nav{
 }
 .mainMenu .mainMenuDrop ol a:hover{
     background:#cfcfcf;
+}
+
+/* 스크롤바 디자인 */
+body{
+    scrollbar-face-color:#cacaca;
+    scrollbar-arrow-color:#e3e3e3;
+    scrollbar-track-color: #f1f1f1;
+}
+body::-webkit-scrollbar{
+    width:13px;
+    background-color:#f1f1f1;
+}
+body::-webkit-scrollbar-thumb{
+    background-color:#b8b8b8;
+}
+body::-webkit-scrollbar-button{
+    background-color:#e3e3e3;
 }
