@@ -47,6 +47,16 @@ font-family: 'Heebo', sans-serif;   //footer 숫자
     margin:0;
 }
 
+.topNbottom .topNbottomInner{
+    z-index:150; position:fixed; bottom:30px; right:15px;
+}
+.topNbottom button{
+    display:block;
+}
+.topNbottom button:first-child{
+    margin-bottom:5px;
+}
+
 .visual{
     width:100%; height:546px; position:relative;
 }
